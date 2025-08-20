@@ -1,0 +1,96 @@
+body {
+    padding: 25px;
+    background-color: black;
+}
+
+
+#Nameofcharity {
+    background-color: gold;
+    text-align: center;
+    font-weight: bolder;
+    padding: 3%;
+    border: 10px solid #555;
+}
+
+.Princes {
+    display: flex;
+    margin: 0 auto;
+    border: 10px solid #555;
+    width: 700px;
+    height: 500px;
+}
+
+
+.blackandyallow {
+    
+    background-size:cover;
+    background-color: gold;
+    text-align: center;
+    font-weight: bolder;
+    padding: 2%;
+    border: 5px solid #555;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 28px;
+}
+
+p, div{
+    
+    color: white;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+#ThankingUser {
+    font-size: 35px;
+}
+
+/*phones*/
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  body {
+    
+    font-size: 10px;
+
+  }
+  #Nameofcharity {
+    font-size: 200%;
+  }
+
+
+  .blackandyallow {
+    font-size: 190%;
+  }  
+  p {
+    font-size: medium;
+  }
+  .Princes { 
+    
+    width: 80%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    body {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 250%;
+  }
+
+  .blackandyallow {
+    font-size: 190%;
+  }  
+
+  p {
+    font-size: medium;
+  }
+  .Princes {
+    width: 80%;
+    height: 90%;
+  }
+}
+
+
